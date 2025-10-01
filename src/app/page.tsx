@@ -4,6 +4,7 @@ import { projects as allProjects, aboutPage } from '@/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { CtaSection } from '@/components/sections/cta-section';
 import { homePage } from '@/lib/data';
+import { Code2 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Sobre mí y Proyectos | Iván Vega Hernández',
@@ -17,22 +18,25 @@ export default function AboutAndProjectsPage() {
   return (
     <div className="container py-16 md:py-24">
       <div className="mx-auto max-w-4xl mb-12">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-8 p-6 bg-card rounded-lg shadow-sm">
-          <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Bienvenido a mi espacio</h1>
-          <Image 
-              src={image}
-              alt="Retrato de Iván Vega"
-              data-ai-hint={imageHint}
-              width={120}
-              height={120}
-              className="rounded-full aspect-square object-cover shadow-lg border-4 border-background"
-          />
+        <div className="flex flex-col items-center justify-center gap-8 p-6 bg-card rounded-lg shadow-sm text-center">
+            <div className="flex items-center gap-3">
+                <Code2 className="h-10 w-10 text-accent" />
+                <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Iván Vega</h1>
+            </div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <aside className="md:col-span-1">
           <div className="sticky top-24">
+            <Image 
+                src={'https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png'}
+                alt="Retrato de Iván Vega"
+                data-ai-hint={imageHint}
+                width={300}
+                height={300}
+                className="rounded-lg aspect-square object-cover shadow-lg w-full mb-8"
+            />
             <h2 className="font-headline text-2xl font-bold mb-4">Acerca de mí</h2>
             <div className="space-y-4 text-muted-foreground">
               {fullBio.map((paragraph, index) => (

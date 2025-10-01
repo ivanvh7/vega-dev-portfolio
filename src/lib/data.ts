@@ -135,8 +135,8 @@ export const aboutPage = {
     secondaryText: 'Conecta en GitHub',
     secondaryLink: 'https://github.com/ivanvh7',
   },
-  image: 'https://picsum.photos/seed/ivan-vega/500/500',
-  imageHint: 'portrait man'
+  image: 'https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png',
+  imageHint: 'portrait man suit'
 };
 
 export const services: Service[] = [

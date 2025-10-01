@@ -40,7 +40,7 @@ export default function AboutPage() {
         </div>
         <div className="flex items-center justify-center">
             <Image 
-                src={image}
+                src={'https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png'}
                 alt="Retrato de Iván Vega"
                 data-ai-hint={imageHint}
                 width={300}

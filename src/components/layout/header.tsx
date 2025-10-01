@@ -8,7 +8,6 @@ import { Menu } from 'lucide-react';
 import { navItems } from '@/lib/data';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from '@/components/ui/theme-toggle';
-import Image from 'next/image';
 
 export function Header() {
   const pathname = usePathname();
@@ -18,13 +17,6 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex">
           <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/images/73824E49-1107-4E8D-BD76-7A6C0A492A05.JPG"
-              alt="Retrato de Iván Vega"
-              width={32}
-              height={32}
-              className="rounded-full object-cover"
-            />
             <span className="font-bold font-headline"> <span className="text-primary">&lt;/&gt;</span> Iván Vega Hernández</span>
           </Link>
         </div>
@@ -58,12 +50,6 @@ export function Header() {
               <SheetContent side="right">
                 <div className="flex flex-col gap-6 p-6">
                   <Link href="/" className="flex items-center gap-2">
-                     <Image
-                      alt="Retrato de Iván Vega"
-                      width={32}
-                      height={32}
-                      className="rounded-full object-cover"
-                    />
                     <span className="font-bold font-headline">Iván Vega Hdez.</span>
                   </Link>
                   <nav className="flex flex-col gap-4">

@@ -104,6 +104,12 @@ export const aboutPage = {
   p1: 'Desarrollador web con experiencia en Contactel e Inerza. Disfruto convirtiendo requisitos complejos en productos claros, rápidos y fáciles de usar.',
   p2: 'Trabajo principalmente con JavaScript/TypeScript, React.js/Next.js y Node.js/Express. Me mantengo en formación continua para dominar nuevas prácticas y herramientas que aporten valor.',
   p3: 'Me enfoco en la colaboración, la comunicación clara y el detalle. Para mí, “listo” significa medible, mantenible y accesible para todos los usuarios.',
+  fullBio: [
+    '¡Hola! Soy Iván Vega, un desarrollador web apasionado por crear soluciones digitales que no solo funcionen bien, sino que también ofrezcan una experiencia de usuario excepcional. Mi objetivo es transformar ideas y requisitos complejos en productos intuitivos, eficientes y accesibles.',
+    'Con experiencia profesional en entornos como Contactel e Inerza, he tenido la oportunidad de trabajar en proyectos reales, enfrentando desafíos técnicos y de negocio que han forjado mi perfil. Me especializo en el ecosistema de JavaScript, con un fuerte dominio de React, Next.js para el frontend y Node.js con Express para el backend.',
+    'Creo firmemente en la importancia de un código limpio, mantenible y escalable. Por eso, dedico tiempo a la arquitectura, las buenas prácticas y la documentación. Además, considero que el rendimiento (Core Web Vitals) y la accesibilidad (WCAG) no son extras, sino pilares fundamentales de cualquier proyecto de calidad.',
+    'Siempre estoy aprendiendo. El mundo del desarrollo web evoluciona a una velocidad vertiginosa y me esfuerzo por estar al día, no por seguir modas, sino para elegir la herramienta adecuada para cada problema. Si buscas a alguien proactivo, comunicativo y comprometido con los resultados, hemos conectado.'
+  ],
   stack: {
     title: 'Stack y herramientas',
     frontend: {

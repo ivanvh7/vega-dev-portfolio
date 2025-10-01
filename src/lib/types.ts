@@ -35,7 +35,7 @@ export type FaqItem = {
 };
 
 export type ValueProposition = {
-  title: string;
+  title:string;
   icon: LucideIcon;
 };
 
@@ -52,3 +52,38 @@ export type Submission = {
   budget?: string;
   message: string;
 }
+
+export type AboutPageContent = {
+  title: string;
+  p1: string;
+  p2: string;
+  p3: string;
+  fullBio: string[];
+  stack: {
+    title: string;
+    frontend: {
+      title: string;
+      tools: string;
+    };
+    backend: {
+      title: string;
+      tools: string;
+    };
+    data: {
+      title: string;
+      tools: string;
+    };
+    methodologies: {
+      title: string;
+      tools: string;
+    };
+  };
+  cta: {
+    primaryText: string;
+    primaryLink: string;
+    secondaryText: string;
+    secondaryLink: string;
+  };
+  image: string;
+  imageHint: string;
+};

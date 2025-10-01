@@ -15,14 +15,14 @@ export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Card className="flex flex-col overflow-hidden transition-shadow hover:shadow-lg">
       <CardHeader>
-        <div className="aspect-video overflow-hidden rounded-md border">
+        <div className="aspect-video overflow-hidden rounded-md border bg-gradient-to-br from-muted/20 to-muted/40 flex items-center justify-center p-8">
             <Image
                 src={project.image}
-                alt={`Captura de pantalla del proyecto ${project.title}`}
+                alt={`Icono del lenguaje principal del proyecto ${project.title}`}
                 data-ai-hint={project.imageHint}
-                width={600}
-                height={400}
-                className="w-full h-full object-cover"
+                width={120}
+                height={120}
+                className="object-contain max-w-[120px] max-h-[120px] drop-shadow-sm"
             />
         </div>
       </CardHeader>

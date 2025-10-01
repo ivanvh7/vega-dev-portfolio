@@ -56,8 +56,8 @@ export const projects: Project[] = [
       'Documentación y scripts de despliegue.',
     ],
     result: 'Tiempo de carga <1s en conexiones rápidas, interfaz intuitiva que reduce el tiempo de búsqueda del usuario.',
-    image: 'https://picsum.photos/seed/react/600/400',
-    imageHint: 'react code',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    imageHint: 'React TypeScript project',
   },
   {
     title: 'Proyect1-JavaScript',
@@ -65,8 +65,8 @@ export const projects: Project[] = [
     summary: 'Aplicación vanilla JavaScript para afianzar fundamentos: estado, eventos, asincronía y manipulación del DOM con buenas prácticas.',
     technologies: ['JavaScript', 'HTML5', 'CSS3'],
     learnings: ['Modulación de código', 'Patrones de diseño simples', 'Testing básico con Jest.'],
-    image: 'https://picsum.photos/seed/javascript/600/400',
-    imageHint: 'javascript code',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+    imageHint: 'JavaScript vanilla project',
   },
   {
     title: 'Proyect2-bd-php',
@@ -74,8 +74,8 @@ export const projects: Project[] = [
     summary: 'CRUD completo con PHP y base de datos. Enfoque en seguridad (validación, sanitización) y consultas eficientes.',
     technologies: ['PHP', 'MySQL', 'HTML', 'CSS'],
     learnings: ['Patrón MVC liviano', 'Control de sesiones y autenticación', 'Sentencias SQL preparadas para evitar inyección.'],
-    image: 'https://picsum.photos/seed/php/600/400',
-    imageHint: 'php code',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+    imageHint: 'PHP MySQL project',
   },
   {
     title: 'Proyect3-soap-api',
@@ -83,8 +83,8 @@ export const projects: Project[] = [
     summary: 'Servicio SOAP interoperable con manejo de esquemas y contratos. Demuestra integración con sistemas legados.',
     technologies: ['PHP', 'SOAP', 'WSDL', 'XML'],
     learnings: ['Definición de contratos de API (WSDL)', 'Versionado de servicios web', 'Logs y manejo de errores robusto.'],
-    image: 'https://picsum.photos/seed/soap/600/400',
-    imageHint: 'api soap',
+    image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xml/xml-original.svg',
+    imageHint: 'SOAP API with XML',
   },
 ];
 

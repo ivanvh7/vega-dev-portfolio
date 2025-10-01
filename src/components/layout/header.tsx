@@ -59,7 +59,7 @@ export function Header() {
                 <div className="flex flex-col gap-6 p-6">
                   <Link href="/" className="flex items-center gap-2">
                      <Image
-                      src="/images/73824E49-1107-4E8D-BD76-7A6C0A492A05.JPG"
+                      "
                       alt="Retrato de Iván Vega"
                       width={32}
                       height={32}

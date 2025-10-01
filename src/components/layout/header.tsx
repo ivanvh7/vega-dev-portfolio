@@ -4,10 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
-import { Menu, Code2 } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { navItems } from '@/lib/data';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from '@/components/ui/theme-toggle';
+import Image from 'next/image';
 
 export function Header() {
   const pathname = usePathname();
@@ -17,7 +18,13 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex">
           <Link href="/" className="flex items-center gap-2">
-            <Code2 className="h-6 w-6 text-primary" />
+            <Image
+              src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
+              alt="Retrato de Iván Vega"
+              width={32}
+              height={32}
+              className="rounded-full object-cover"
+            />
             <span className="font-bold font-headline">Iván Vega Hdez.</span>
           </Link>
         </div>
@@ -51,7 +58,13 @@ export function Header() {
               <SheetContent side="right">
                 <div className="flex flex-col gap-6 p-6">
                   <Link href="/" className="flex items-center gap-2">
-                    <Code2 className="h-6 w-6 text-primary" />
+                     <Image
+                      src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
+                      alt="Retrato de Iván Vega"
+                      width={32}
+                      height={32}
+                      className="rounded-full object-cover"
+                    />
                     <span className="font-bold font-headline">Iván Vega Hdez.</span>
                   </Link>
                   <nav className="flex flex-col gap-4">

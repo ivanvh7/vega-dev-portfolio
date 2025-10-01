@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { projects as allProjects, aboutPage } from '@/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { CtaSection } from '@/components/sections/cta-section';
@@ -29,14 +28,6 @@ export default function AboutAndProjectsPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         <aside className="md:col-span-1">
           <div className="sticky top-24">
-            <Image 
-                src={'https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png'}
-                alt="Retrato de Iván Vega"
-                data-ai-hint={imageHint}
-                width={300}
-                height={300}
-                className="rounded-lg aspect-square object-cover shadow-lg w-full mb-8"
-            />
             <h2 className="font-headline text-2xl font-bold mb-4">Acerca de mí</h2>
             <div className="space-y-4 text-muted-foreground">
               {fullBio.map((paragraph, index) => (

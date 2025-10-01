@@ -4,6 +4,7 @@ import { ProjectCard } from '@/components/project-card';
 import { CtaSection } from '@/components/sections/cta-section';
 import { homePage } from '@/lib/data';
 import { Code2 } from 'lucide-react';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Sobre mí y Proyectos | Iván Vega Hernández',
@@ -19,7 +20,13 @@ export default function AboutAndProjectsPage() {
       <div className="mx-auto max-w-4xl mb-12">
         <div className="flex flex-col items-center justify-center gap-8 p-6 bg-card rounded-lg shadow-sm text-center">
             <div className="flex items-center gap-3">
-                <Code2 className="h-10 w-10 text-accent" />
+                 <Image
+                    src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
+                    alt="Retrato de Iván Vega"
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover"
+                />
                 <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Iván Vega</h1>
             </div>
         </div>

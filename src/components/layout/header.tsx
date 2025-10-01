@@ -25,7 +25,7 @@ export function Header() {
               height={32}
               className="rounded-full object-cover"
             />
-            <span className="font-bold font-headline">Iván Vega Hdez.</span>
+            <span className="font-bold font-headline"> <span className="text-primary">&lt;/&gt;</span> Iván Vega Hernández</span>
           </Link>
         </div>
         <nav className="hidden items-center gap-6 text-sm md:flex">

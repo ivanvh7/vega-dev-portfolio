@@ -18,13 +18,13 @@ export default function AboutAndProjectsPage() {
     <div className="container py-16 md:py-24">
       <div className="mx-auto max-w-4xl mb-12">
         <div className="flex items-center justify-between gap-8 p-6 bg-card rounded-lg shadow-sm">
-            <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Información</h1>
+            <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl"> <span className="text-primary">&lt;/&gt;</span> Iván Vega Hernández </h1>
             <Image
-              src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
+              src="/images/73824E49-1107-4E8D-BD76-7A6C0A492A05.JPG"
               alt="Retrato de Iván Vega"
-              width={60}
-              height={60}
-              className="rounded-lg object-cover"
+              width={100}
+              height={100}
+              className="rounded-full object-cover aspect-square"
             />
         </div>
       </div>

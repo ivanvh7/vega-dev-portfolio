@@ -3,7 +3,6 @@ import { projects as allProjects, aboutPage } from '@/lib/data';
 import { ProjectCard } from '@/components/project-card';
 import { CtaSection } from '@/components/sections/cta-section';
 import { homePage } from '@/lib/data';
-import { Code2 } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
@@ -18,17 +17,15 @@ export default function AboutAndProjectsPage() {
   return (
     <div className="container py-16 md:py-24">
       <div className="mx-auto max-w-4xl mb-12">
-        <div className="flex flex-col items-center justify-center gap-8 p-6 bg-card rounded-lg shadow-sm text-center">
-            <div className="flex items-center gap-3">
-                <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Iván Vega</h1>
-                 <Image
-                    src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
-                    alt="Retrato de Iván Vega"
-                    width={40}
-                    height={40}
-                    className="rounded-full object-cover"
-                />
-            </div>
+        <div className="flex items-center justify-between gap-8 p-6 bg-card rounded-lg shadow-sm">
+            <h1 className="font-headline text-4xl font-bold tracking-tight lg:text-5xl">Información</h1>
+            <Image
+              src="https://storage.googleapis.com/aifirebase/images/k2CaxK7s21g/man-in-suit-posing-for-a-picture-in-a-mirror_1.png"
+              alt="Retrato de Iván Vega"
+              width={60}
+              height={60}
+              className="rounded-lg object-cover"
+            />
         </div>
       </div>
 
